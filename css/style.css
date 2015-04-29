@@ -1,0 +1,56 @@
+/* NHN UIT HDS 140429 */
+/* Common */
+/* line 5, ../scss/common/_base.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 6, ../scss/common/_base.scss */
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../scss/common/_base.scss */
+body, input, textarea, select, button, table {
+  font-family: 'helvetica Neue',Helvetica,'Apple SD Gothic Neo',sans-serif;
+  font-size: 12px;
+}
+
+/* line 8, ../scss/common/_base.scss */
+img, fieldset {
+  border: 0;
+}
+
+/* line 9, ../scss/common/_base.scss */
+ul, ol {
+  list-style: none;
+}
+
+/* line 10, ../scss/common/_base.scss */
+em, address {
+  font-style: normal;
+}
+
+/* line 11, ../scss/common/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 12, ../scss/common/_base.scss */
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+}
+
+/* line 14, ../scss/common/_base.scss */
+.blind {
+  visibility: hidden;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+}
