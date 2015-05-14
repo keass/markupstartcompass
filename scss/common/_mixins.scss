@@ -1,1 +1,13 @@
 @charset "utf-8";
+
+@mixin sprt($imgname) {
+	$sp: sprite-map("sp_works/*.png", $spacing: 10px);
+	background: sprite($sp,$imgname);
+}
+
+@mixin borderr($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
